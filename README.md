@@ -6,6 +6,24 @@ This is a simple sample.
 - nginx
 - php-fpm
 
+(with Docker for Mac. )
+
+# Requirements
+
+Make sure that you installed Docker (for Mac).
+
+Ref. [Docker for Mac](https://docs.docker.com/docker-for-mac/)
+
+```
+$ docker -v
+Docker version 1.13.1-rc1, build 2527cfc
+
+$ docker-compose -v
+docker-compose version 1.10.0, build 4bd6f1a
+
+$ docker-machine -v
+docker-machine version 0.9.0, build 15fd4c7
+```
 
 # Usage
 
