@@ -1,5 +1,12 @@
 # docker-nginx-phpfpm
 
+This is a simple sample.
+
+- docker
+- nginx
+- php-fpm
+
+
 # Usage
 
 ```
