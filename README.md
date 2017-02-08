@@ -8,7 +8,7 @@ This is a simple sample.
 
 (with Docker for Mac. )
 
-# Requirements
+# Prerequisites
 
 Make sure that you installed Docker (for Mac).
 
