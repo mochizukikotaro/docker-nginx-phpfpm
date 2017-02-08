@@ -1,4 +1,3 @@
 <?php
-echo 'Yeap';
-echo 'hoge';
+echo 'Test';
 echo phpinfo();
