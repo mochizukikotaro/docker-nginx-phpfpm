@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-      build: ./
+      build: ./containers/nginx
       ports:
           - "8080:80"
       volumes:
@@ -9,6 +9,6 @@ services:
       depends_on:
           - php
   php:
-      image: php:7-fpm
+      build: ./containers/php
       volumes:
           - ./code:/code
