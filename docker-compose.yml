@@ -6,8 +6,6 @@ services:
         dockerfile: ./containers/nginx/Dockerfile
       ports:
           - "8080:80"
-      # volumes:
-      #     - ./code:/code
       depends_on:
           - php
   php:
@@ -16,5 +14,3 @@ services:
         dockerfile: ./containers/php/Dockerfile
       ports:
          - "9000:9000"
-      # volumes:
-      #     - ./code:/code
