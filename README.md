@@ -28,7 +28,7 @@ docker-machine version 0.9.0, build 15fd4c7
 # Usage
 
 ```
-$ git clone git clone git@github.com:mochizukikotaro/docker-nginx-phpfpm.git
+$ git clone git@github.com:mochizukikotaro/docker-nginx-phpfpm.git
 $ cd docker-nginx-phpfpm.git
 $ docker-compose up
 ```
